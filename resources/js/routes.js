@@ -18,7 +18,11 @@ const routes = [
 	{
 		path : '/employee',
 		component : EmployeeListLayout
-	}
+	},
+	// {
+	// 	path : '/add-employee',
+	// 	component : AddEmployeeLayout
+	// }
 
 ]
 

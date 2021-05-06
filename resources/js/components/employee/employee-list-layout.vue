@@ -66,7 +66,10 @@
                 				<div class="card-footer">
 				                  	<div class="text-right">
 				                    	<a href="#" class="btn btn-sm bg-teal">
-				                      		<i class="fas fa-comments"></i>
+				                      		<i class="fas fa-edit"></i>
+				                    	</a>
+				                    	<a href="#" class="btn btn-sm bg-danger">
+				                      		<i class="fas fa-trash"></i>
 				                    	</a>
 				                    	<a href="#" class="btn btn-sm btn-primary">
 				                      		<i class="fas fa-user"></i> View Profile
@@ -109,8 +112,11 @@
 		                		<div class="card-footer">
 		                  			<div class="text-right">
 		                    			<a href="#" class="btn btn-sm bg-teal">
-		                      				<i class="fas fa-comments"></i>
-		                    			</a>
+				                      		<i class="fas fa-edit"></i>
+				                    	</a>
+				                    	<a href="#" class="btn btn-sm bg-danger">
+				                      		<i class="fas fa-trash"></i>
+				                    	</a>
 		                    			<a href="#" class="btn btn-sm btn-primary">
 		                      				<i class="fas fa-user"></i> View Profile
 		                    			</a>
@@ -153,8 +159,11 @@
                 				<div class="card-footer">
                   					<div class="text-right">
                     					<a href="#" class="btn btn-sm bg-teal">
-                      						<i class="fas fa-comments"></i>
-                    					</a>
+				                      		<i class="fas fa-edit"></i>
+				                    	</a>
+				                    	<a href="#" class="btn btn-sm bg-danger">
+				                      		<i class="fas fa-trash"></i>
+				                    	</a>
                     					<a href="#" class="btn btn-sm btn-primary">
                       						<i class="fas fa-user"></i> View Profile
                     					</a>

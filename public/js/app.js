@@ -4289,6 +4289,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'employee-list'
 });
@@ -4383,7 +4392,11 @@ var routes = [{
 }, {
   path: '/employee',
   component: _components_employee_employee_list_layout_vue__WEBPACK_IMPORTED_MODULE_1__.default
-}];
+} // {
+// 	path : '/add-employee',
+// 	component : AddEmployeeLayout
+// }
+];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new vue_router__WEBPACK_IMPORTED_MODULE_3__.default({
   routes: routes,
   mode: 'history',
@@ -22858,7 +22871,16 @@ var staticRenderFns = [
                             staticClass: "btn btn-sm bg-teal",
                             attrs: { href: "#" }
                           },
-                          [_c("i", { staticClass: "fas fa-comments" })]
+                          [_c("i", { staticClass: "fas fa-edit" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "btn btn-sm bg-danger",
+                            attrs: { href: "#" }
+                          },
+                          [_c("i", { staticClass: "fas fa-trash" })]
                         ),
                         _vm._v(" "),
                         _c(
@@ -22959,7 +22981,16 @@ var staticRenderFns = [
                             staticClass: "btn btn-sm bg-teal",
                             attrs: { href: "#" }
                           },
-                          [_c("i", { staticClass: "fas fa-comments" })]
+                          [_c("i", { staticClass: "fas fa-edit" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "btn btn-sm bg-danger",
+                            attrs: { href: "#" }
+                          },
+                          [_c("i", { staticClass: "fas fa-trash" })]
                         ),
                         _vm._v(" "),
                         _c(
@@ -23060,7 +23091,16 @@ var staticRenderFns = [
                             staticClass: "btn btn-sm bg-teal",
                             attrs: { href: "#" }
                           },
-                          [_c("i", { staticClass: "fas fa-comments" })]
+                          [_c("i", { staticClass: "fas fa-edit" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "btn btn-sm bg-danger",
+                            attrs: { href: "#" }
+                          },
+                          [_c("i", { staticClass: "fas fa-trash" })]
                         ),
                         _vm._v(" "),
                         _c(

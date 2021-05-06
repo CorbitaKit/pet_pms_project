@@ -8,7 +8,13 @@ require('alpinejs');
 window.Vue = require('vue');
 
 new Vue({
-	router
+	router,
+	computed :{
+		currentPage(){
+
+			return this.$route.path
+		}
+	}
 	
 	
 }).$mount('#app');

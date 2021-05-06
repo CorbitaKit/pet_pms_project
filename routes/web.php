@@ -25,3 +25,8 @@ Route::get('/', function () {
 Route::get('/dashboard','DashboardController@index')->name('dashboard');
 
 require __DIR__.'/auth.php';
+
+
+Route::get('{any}', function () {
+    return view('index');
+})->where('any','.*');

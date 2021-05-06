@@ -18,12 +18,23 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item">
-            <a href="#" class="nav-link active">
+            
+            <router-link to="/dashboard" :class="[currentPage.includes('dashboard') ? 'active' : '', 'nav-link']">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
               </p>
-            </a>
+          </router-link>
+          </li>
+
+
+          <li class="nav-item">
+            <router-link to="/employee" :class="[currentPage.includes('employee') ? 'active' : '', 'nav-link']">
+              <i class="nav-icon fas fa-users"></i>
+              <p>
+                Employee
+              </p>
+          </router-link>
           </li>
           
         </ul>

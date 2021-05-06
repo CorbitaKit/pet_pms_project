@@ -5,7 +5,19 @@
 
 	@include('assets.styles')
 </head>
-<body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+<body class="hold-transition skin-blue sidebar-mini">
+	<div class="wrapper" id="app">
+
+		@include('importants.navbar')
+		@include('importants.aside')
+
+		<div class="content-wrapper">
+			@yield('content')
+
+		</div>
+	</div>
+
+	@include('assets.scripts')
 
 </body>
 </html>

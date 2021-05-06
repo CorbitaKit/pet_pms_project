@@ -1,14 +1,21 @@
-import Vue from 'vue'
-import router from './routes.js'
-
+import Vue from 'vue';
+import router from './routes.js';
+import GlobalImport from './plugins/global-import.js';
 require('./bootstrap');
 
 require('alpinejs');
 
-window.Vue = require('vue');
+window.Vue = Vue
+Vue.use(GlobalImport)
 
 new Vue({
-	router
+	router,
+	computed :{
+		currentPage(){
+
+			return this.$route.path
+		}
+	}
 	
 	
 }).$mount('#app');

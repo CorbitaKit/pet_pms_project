@@ -24,8 +24,9 @@
      					</div>
      				
      					<div class="col-md-2">
-     						<button type="button" class="btn btn-success btn-block">
-     							<i class="fa fa-plus"></i> Add employee</button>
+     						<router-link to="/add-employee" class="btn btn-success btn-block" type="button">
+     							<i class="fa fa-plus"></i> Add employee
+     						</router-link>
      					</div>
      				</div>
      			</div>
